@@ -43,7 +43,12 @@ npm install
 cp .env.example .env
 ```
 
-4. Configure your `.env` file with the following variables:
+4. To generate JWT_SECRET, run this command
+ ```
+  node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"  
+ ```
+
+5. Configure your `.env` file with the following variables:
 ```env
 PORT=3000
 DB_HOST=localhost
@@ -57,7 +62,7 @@ NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
 ```
 
-5. Set up your PostgreSQL database
+6. Set up your PostgreSQL database
 
 ## Scripts
 
