@@ -68,7 +68,6 @@ FRONTEND_URL=http://localhost:5173
 
 - `npm run dev` - Start development server
 - `npm run dev:watch` - Start development server with hot reload
-- `npm test DashboardPage.crud` - Run tests
 
 ## Development
 
